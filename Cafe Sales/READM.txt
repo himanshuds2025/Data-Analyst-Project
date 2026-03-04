@@ -1,0 +1,39 @@
+Page 1 — Business Performance Overview
+
+What is happening overall?
+
+The business shows stable, predictable performance over time. Monthly revenue closely tracks transaction volume, indicating that growth is primarily volume-driven rather than price-driven. There are no extreme spikes or collapses, suggesting demand consistency and operational stability rather than short-term promotional noise.
+
+So what?
+The shop is not struggling with volatility. Optimization efforts should focus on incremental improvements (volume, mix, efficiency), not firefighting instability.
+
+Page 2 — Product Intelligence (Signal vs Noise)
+
+Which items actually matter?
+
+Revenue is highly concentrated. A small subset of items consistently generates the majority of revenue, while the remaining products contribute marginally.
+
+Top items are not one-off performers; their revenue remains consistent month over month, confirming they are real drivers, not seasonal flukes.
+
+The revenue distribution shows a long tail of low-impact items that collectively add little value.
+
+The price vs revenue relationship reveals a clear cluster of low-revenue items at lower prices, reinforcing their classification as operational noise.
+
+So what?
+Not all products deserve equal attention.
+Inventory planning, pricing strategy, and promotions should prioritize high-impact items, while low-contributing items should be reviewed, bundled, simplified, or deprioritized to reduce operational complexity.
+
+Page 3 — Customer Behavior & Channel Mix
+
+How customers buy and pay
+
+Customer behavior is structurally stable:
+
+In-store transactions dominate consistently, with delivery acting as a steady secondary channel, not a volatile experiment.
+
+Digital payments and cards account for most transactions, while cash remains a meaningful but declining minority.
+
+No payment method or channel shows erratic swings, indicating mature, predictable customer preferences.
+
+So what?
+There is no urgency to overhaul channels or payment systems. The opportunity lies in incremental optimization—improving in-store efficiency, maintaining digital payment reliability, and selectively supporting delivery where it complements core demand.
