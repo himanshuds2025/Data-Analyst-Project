@@ -1,0 +1,18 @@
+This was my best project of this month. I implement a couple of new concepts into this project and tried figuring out how I could answer the
+business quesitions in the most efficient manner while minimising the errors as much as possible. 
+
+This project was done to answer the following questions:
+
+What were the business requirements:
+
+1. Identify which sports deliver the highest and lowest medal efficiency relative to participation volume.
+2. Determine whether countries are overly dependent on a single sport and assess the risk that this poses to long-term competitive stability.
+3. Build a clear, executive-friendly reporting system to monitor sport efficiency, medal output, and diversification over time.
+
+What was the output:
+
+1. A medal-efficiency model ranking every sport by return on investment and exposing high- and low-performance disciplines.
+2. A specialization-risk framework classifying countries into Low / Medium / High dependency with year-over-year diversification tracking.
+3. A multi-page Power BI dashboard presenting medal productivity, participation scaling, sport efficiency, country concentration, and long-term trends in a consolidated and executive-ready format.
+
+Tools Used: MySQL, PowerBI, DBeaver
