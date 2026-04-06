@@ -1,0 +1,28 @@
+Problem Statement
+Australia’s national road authorities require a clear, standardized analytical view of major road infrastructure to support planning, budgeting, maintenance prioritization, and inter-agency coordination. The existing dataset contains road segment attributes—such as jurisdiction, naming, hierarchy, lane configuration, operational status, surface type, and physical characteristics—but this information is fragmented and inconsistently structured across states and contributors.
+A consolidated analytic assessment is needed to describe the current state of the road network, quantify its composition, identify inconsistencies, and highlight infrastructure gaps without relying on forecasting or predictive methods.
+
+Business Requirements
+
+Network Composition Reporting
+Produce descriptive summaries of road length, road type distribution, hierarchy classification, and lane configurations across states and territories.
+Quantify sealed versus unsealed segments, operational versus non-operational segments, and ground-level versus above/below-ground structures.
+Governance and Ownership Visibility
+Identify which agencies or jurisdictions manage the most road length.
+Highlight variations in management responsibility across states.
+Naming and Metadata Standardization
+Assess completeness and consistency of street names, types, suffixes, and aliases.
+Detect anomalies, missing metadata, or divergent naming conventions between contributors.
+Quality and Accuracy Assessment
+Evaluate horizontal accuracy values across states to identify potential data quality issues.
+Flag segments with incomplete or inconsistent structural or operational metadata.
+Speed and Hierarchy Alignment
+Summarize posted speed distribution.
+Compare typical speeds across road hierarchies to identify outliers or unusual patterns.
+Infrastructure Gap Identification
+Highlight areas with high proportions of unsealed roads or low lane counts.
+Identify segments marked as non-operational or potentially incomplete.
+Deliverables (Analytics Ready)
+A consolidated, cleaned, and standardized dataset.
+A set of descriptive SQL-based metrics and summaries.
+A clear analytic dashboard or report describing the state of Australia’s major road network.
