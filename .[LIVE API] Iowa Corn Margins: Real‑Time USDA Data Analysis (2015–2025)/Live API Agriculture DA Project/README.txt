@@ -45,7 +45,7 @@ Key findings from the 2025 analysis:
 - **All 82 counties** in the dataset show **negative margins** – meaning every county is projected to lose money per acre under the Heartland cost assumptions.
 - **Worst Hit County** – Taylor County, with a margin of **-$255.02 per acre**.
 - **Least Affected County** – Howard County, with a margin of **-$30.79 per acre**.
-- **State‑wide Average** – The average loss across all counties is **approximately -$145 per acre**.
+- **State‑wide Average** – The average loss across all counties is **approximately -$127 per acre**.
 - **Yield is the sole differentiator** – Because costs and prices are fixed, the scatter plot of Yield vs Margin forms a perfect straight line.
 
 
