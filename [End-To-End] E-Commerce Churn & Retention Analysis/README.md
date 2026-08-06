@@ -42,8 +42,7 @@ The solution should:
 - Measure customer retention over time
 - Produce actionable recommendations
 - Provide an executive dashboard for self-service analytics
-- Produce actionable recommendations
-- Provide an executive dashboard for self-service analytics
+
 ---
 ## Tech Stack
 
@@ -208,10 +207,33 @@ Top 10 most sold categories were taken into consideration for this analysis who 
 
 ## How to Run
 
-In the same folder of 'deliverables', run cmd from the address bar in the file explorer.
+### Prerequisites 
+- PostgreSQL: Installed and running on your system.
+- Dataset: The Olist dataset (9 CSV files) downloaded from [data source](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+  
+### Step-by-Step Setup
+
+#### Create the Database
+- Open your terminal or command prompt and connect to PostgreSQL. Then, create a new database for the project.
+  ```CREATE DATABASE olist_warehouse;```
+#### Import the Raw Data
+- Use the COPY command to import the 9 CSV files into your database. You can do this via the psql command-line tool or pgAdmin's import tool [0†L14]. The exact command will depend on your file paths. For example:
+  ```COPY olist_customers_dataset FROM '/path/to/your/olist_customers_dataset.csv' DELIMITER ',' CSV HEADER;```
+- Note: Ensure all 9 tables are created and populated with the correct schema before proceeding.
+
+#### Run the ETL Pipeline
+- Navigate to the /Deliverables folder of this project. From the address bar in File Explorer, open a command prompt and execute the master script:
+```"C:\Program Files\PostgreSQL\18\bin\psql" -U postgres -d olist_warehouse -f run_all.sql```
+
+- This single command will execute all four scripts in order: 1_DDL.sql, 2_ETL.sql, 3_DATA_QUALITY.sql, and 4_ANALYTICS.sql.
+
+- **Expected Output**
+  - Star Schema Creation: All dimension (dim_*) and fact (fact_*) tables for the data warehouse are created.
+  - Data Cleaning: The ETL process cleans and transforms the raw data, handling duplicates, missing values, and generating surrogate keys.
+  - Materialized Views: Five analytical views (rfm_segments, cohort_retention, churn_risk, churn_drivers, churn_category_analysis) are created and populated with data.
+  - Summary Statistics: The final output of the script will display row counts for key tables and materialized views, confirming the pipeline ran successfully.
 
 ### Run this command in
-```"C:\Program Files\PostgreSQL\18\bin\psql" -U postgres -d postgres -f run_all.sql```
 --------------------------------
 Alternative Way: 
 
