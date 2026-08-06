@@ -175,21 +175,36 @@ Top 10 most sold categories were taken into consideration for this analysis who 
 - Churned customers wait an average of **12.69** days
 - Active customers wait 6.58 days
 ### Customer Retention
-- Average Month 1 retention is only 5.22%
-- Retention falls below 1% from Month 2 onward
+- Average Month 1 retention is only **5.22%**
+- Retention falls **below 1%** from Month 2 onward
 - Most customers never make a second purchase
 ### Customer Satisfaction
 - Active customers average **4.33** review score
 - Churned customers average **4.08** review score
 - Lower satisfaction is associated with higher churn
+### High Value Customers
+- Champion customers spend an average of: **R$313.7**
+- However, **14,381** Champion customers are classified as High Churn Risk, representing the highest-value customers currently at risk.
 
 ---
 
 ## Business Recommendations
 
-- Recommendation 1
-- Recommendation 2
+### Improve Delivery Performance
 
+- Customers who churn experience **significantly longer delivery times** than active customers (12.69 vs. 6.58 days).
+- Reducing delivery delays through improved logistics, carrier monitoring, and proactive shipment updates could improve customer retention.
+
+### Launch First-Purchase Retention Campaigns
+
+- Customer retention drops sharply after the first purchase, with only 5.22% of customers returning in the following month.
+- Introduce first-month incentives such as personalized offers, loyalty rewards, or follow-up email campaigns to encourage a second purchase before customers become inactive.
+
+### Prioritize High-Volume Product Categories
+
+- Focus retention efforts on product categories that contribute the largest share of churned customers, including Bed Bath Table, Health & Beauty, and Sports & Leisure.
+- Improving customer experience in these categories offers the greatest opportunity to reduce overall churn.
+  
 ---
 
 ## How to Run
