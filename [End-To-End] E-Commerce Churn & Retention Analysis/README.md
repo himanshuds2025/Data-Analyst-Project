@@ -147,10 +147,10 @@ Monthly cohorts are analysed to determine how customer retention changes after t
 
 The project investigates whether churn is associated with:
 
-Delivery time
-Review score
-Product category
-Customer value
+- Delivery time
+- Review score
+- Product category
+- Customer value
 
 ---
 
