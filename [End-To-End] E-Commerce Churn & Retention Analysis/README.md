@@ -79,10 +79,10 @@ Dataset size:
 
 ---
 
-## Data Model
+## Data Warehouse Architecture
 
 ![Star Schema](Images/star%20schema.png)
-The project follows a dimensional star schema...
+The project follows a dimensional star schema.
 
 ### Fact Tables
 
@@ -103,7 +103,17 @@ The project follows a dimensional star schema...
 
 ## ETL Pipeline
 
-...
+The ETL process performs:
+
+- Data cleaning
+- Duplicate removal
+- Missing value handling
+- Date dimension generation
+- Surrogate key creation
+- Dimension loading
+- Fact loading
+
+The warehouse follows a dimensional modeling approach suitable for analytical workloads.
 
 ---
 
@@ -111,29 +121,67 @@ The project follows a dimensional star schema...
 
 ### Customer Segmentation (RFM)
 
-...
+| Segment | Recency Score | Frequency Score | Monetary Score | Description |
+|---------|---------------|-----------------|----------------|-------------|
+| **Champion** | ≥ 4 | ≥ 4 | ≥ 4 | High recency, high frequency, high spend – best customers |
+| **Loyal** | ≥ 3 | ≥ 3 | ≥ 3 | Good on all three metrics – strong, consistent customers |
+| **Potential** | ≥ 2 | ≥ 2 | ≥ 2 | Moderate scores – could become loyal with engagement |
+| **At Risk** | = 1 | ≥ 3 | Any | Low recency but historically frequent – used to engage, now slipping |
+| **Lost** | = 1 | ≤ 2 | Any | Low recency and low frequency – unlikely to return |
+| **Other** | Any | Any | Any | Does not meet criteria for any segment above |
 
 ### Cohort Retention
 
-...
+Monthly cohorts are analysed to determine how customer retention changes after the first purchase.
+
+### Churn Risk
+
+| Risk Level | Recency (days since last order) | Description |
+|------------|--------------------------------|-------------|
+| **High**   | > 90 days                       | Customer has been inactive for more than 3 months – likely already churned |
+| **Medium** | 61 – 90 days                    | Customer is showing signs of disengagement – needs re‑engagement campaign |
+| **Low**    | ≤ 60 days                       | Customer is recently active – low risk of churn |
+
+---
 
 ### Churn Driver Analysis
 
-...
+The project investigates whether churn is associated with:
+
+Delivery time
+Review score
+Product category
+Customer value
+
+---
+
+### Category Contribution Analysis
+
+Rather than analysing every product category equally, the project focuses on categories with meaningful customer volume.
+Top 10 most sold categories were taken into consideration for this analysis who had customers greater than 1000.
 
 ---
 
 ## Dashboard
 
-![Dashboard](images/dashboard.png)
+![Dashboard](/Images/Dashboard%20Image.png)
 
 ---
 
 ## Key Insights
 
-- Insight 1
-- Insight 2
-- Insight 3
+### Delivery Performance
+- Delivery delay is the strongest observed churn driver
+- Churned customers wait an average of **12.69** days
+- Active customers wait 6.58 days
+### Customer Retention
+- Average Month 1 retention is only 5.22%
+- Retention falls below 1% from Month 2 onward
+- Most customers never make a second purchase
+### Customer Satisfaction
+- Active customers average **4.33** review score
+- Churned customers average **4.08** review score
+- Lower satisfaction is associated with higher churn
 
 ---
 
