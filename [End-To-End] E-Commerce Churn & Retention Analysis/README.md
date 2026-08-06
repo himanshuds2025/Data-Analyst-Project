@@ -164,7 +164,7 @@ Top 10 most sold categories were taken into consideration for this analysis who 
 
 ## Dashboard
 
-![Dashboard](/Images/Dashboard%20Image.png)
+![Dashboard](Images/Dashboard%20Image.png)
 
 ---
 
