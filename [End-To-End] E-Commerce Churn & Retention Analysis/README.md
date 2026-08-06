@@ -16,10 +16,7 @@ The project includes:
 - Executive dashboard built in Tableau Public
 
 ## Business Problem
-
-Olist is a Brazilian e‑commerce marketplace connecting sellers and customers.
-   The company faces a typical retention challenge: customers stop purchasing after a certain period,
-   and the marketing team lacks a data‑driven framework to identify which customers are at risk and what drives their departure.
+Olist is a Brazilian e‑commerce marketplace connecting sellers and customers. The company faces a typical retention challenge: customers stop purchasing after a certain period, and the marketing team lacks a data‑driven framework to identify which customers are at risk and what drives their departure.
 
 ## Business Requirements
 
