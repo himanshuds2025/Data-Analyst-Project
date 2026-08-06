@@ -211,17 +211,15 @@ Top 10 most sold categories were taken into consideration for this analysis who 
 In the same folder of 'deliverables', run cmd from the address bar in the file explorer.
 
 ### Run this command in
-"C:\Program Files\PostgreSQL\18\bin\psql" -U postgres -d postgres -f run_all.sql
+```"C:\Program Files\PostgreSQL\18\bin\psql" -U postgres -d postgres -f run_all.sql```
+--------------------------------
+Alternative Way: 
 
-    OR
-
--- Run in order 
-1_DDL.sql
-2_ETL.sql
-3_DATA_QUALITY
-4_ANALYTICS.sql
-
-
+ Run in order 
+- 1_DDL.sql
+- 2_ETL.sql
+- 3_DATA_QUALITY
+- 4_ANALYTICS.sql
 
 
 
@@ -235,5 +233,7 @@ In the same folder of 'deliverables', run cmd from the address bar in the file e
 
 
 
-exports.sql
-```
+
+
+
+
