@@ -14,7 +14,7 @@ The project includes:
 - Churn risk modeling
 - Cohort retention analysis
 - Business-focused SQL analytics
-- Executive dashboard built in Tableau Public
+- Executive dashboard built in Tableau Public 
 ---
 ## Business Problem
 Olist is a Brazilian e-commerce marketplace connecting thousands of sellers with customers.
