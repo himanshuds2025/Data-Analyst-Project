@@ -27,6 +27,8 @@ The marketing team currently lacks a repeatable analytical framework to answer q
 - What factors contribute to churn?
 - Which product categories lose the most customers?
 - How quickly do customers stop purchasing?
+  
+This project addresses those questions through an automated analytical pipeline.
 
 ## Business Requirements
 
@@ -36,5 +38,16 @@ The solution should:
 - Quantify customer churn risk
 - Identify major churn drivers
 - Measure customer retention over time
+- Produce actionable recommendations
+- Provide an executive dashboard for self-service analytics
+
+
+
+
+
+
+
+
+
 Produce actionable recommendations
-Provide an executive dashboard for self-service analytics
+Provide an executive dashboard for self-service analyticsalytics
