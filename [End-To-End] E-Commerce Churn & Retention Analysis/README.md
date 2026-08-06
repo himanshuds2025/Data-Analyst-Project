@@ -131,7 +131,6 @@ The warehouse follows a dimensional modeling approach suitable for analytical wo
 | **Other** | Any | Any | Any | Does not meet criteria for any segment above |
 
 ### Cohort Retention
-
 Monthly cohorts are analysed to determine how customer retention changes after the first purchase.
 
 ### Churn Risk
