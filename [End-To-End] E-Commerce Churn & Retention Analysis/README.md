@@ -7,13 +7,13 @@ The objective was to design a production-style analytical solution that enables 
 
 The project includes:
 
-Data warehouse design (Star Schema)
-ETL pipeline in PostgreSQL
-Customer segmentation using RFM analysis
-Churn risk modeling
-Cohort retention analysis
-Business-focused SQL analytics
-Executive dashboard built in Tableau Public
+- Data warehouse design (Star Schema)
+- ETL pipeline in PostgreSQL
+- Customer segmentation using RFM analysis
+- Churn risk modeling
+- Cohort retention analysis
+- Business-focused SQL analytics
+- Executive dashboard built in Tableau Public
 
 ## Business Problem
 
@@ -23,11 +23,11 @@ Like most e-commerce businesses, customer acquisition is expensive. Losing exist
 
 The marketing team currently lacks a repeatable analytical framework to answer questions such as:
 
-Which customers are most likely to churn?
-Which customer segments generate the highest value?
-What factors contribute to churn?
-Which product categories lose the most customers?
-How quickly do customers stop purchasing?
+- Which customers are most likely to churn?
+- Which customer segments generate the highest value?
+- What factors contribute to churn?
+- Which product categories lose the most customers?
+- How quickly do customers stop purchasing?
 
 This project addresses those questions through an automated analytical pipeline.
 
@@ -35,9 +35,9 @@ This project addresses those questions through an automated analytical pipeline.
 
 The solution should:
 
-Segment customers by purchasing behaviour
-Quantify customer churn risk
-Identify major churn drivers
-Measure customer retention over time
+- Segment customers by purchasing behaviour
+- Quantify customer churn risk
+- Identify major churn drivers
+- Measure customer retention over time
 Produce actionable recommendations
 Provide an executive dashboard for self-service analytics
