@@ -80,8 +80,7 @@ Dataset size:
 
 ## Data Model
 
-[Star Schema]([End-To-End] E-Commerce Churn & Retention Analysis/Images/star schema.png)
-
+![Star Schema](Images/star%20schema.png)
 The project follows a dimensional star schema...
 
 ### Fact Tables
