@@ -41,7 +41,13 @@ The solution should:
 - Produce actionable recommendations
 - Provide an executive dashboard for self-service analytics
 
-
+Tech Stack
+Category	Tools
+Database	PostgreSQL
+SQL IDE	DBeaver
+Dashboard	Tableau Public
+Modeling	Star Schema
+SQL	PostgreSQL
 
 
 
