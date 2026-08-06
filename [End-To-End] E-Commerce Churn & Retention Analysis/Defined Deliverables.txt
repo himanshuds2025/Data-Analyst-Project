@@ -1,0 +1,19 @@
+GitHub deliverables (all files):
+
+olist_ddl.sql – all CREATE TABLE statements for staging, star schema, and data quality log.
+
+olist_etl.sql – the idempotent PL/pgSQL function for cleaning and loading (plus any helper functions).
+
+olist_quality.sql – data quality validation queries and control table updates.
+
+olist_analytics.sql – all materialized views and analytical queries (RFM, cohort, churn drivers).
+
+README.md – business problem, requirements, schema diagram, setup steps, and how to run the ETL.
+
+insights_report.pdf (or .md) – 2‑page report with three actionable recommendations, each referencing a specific view and metric.
+
+dashboard_link.txt – public Tableau dashboard URL (Tableau Public, free, no login required).
+
+run_all.sql – a single master script that executes the above in correct order (creates tables, runs ETL, creates views, runs quality checks).
+
+Optional: a small .gitignore and LICENSE if you wish.
