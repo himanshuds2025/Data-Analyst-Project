@@ -1,4 +1,5 @@
 # E-Commerce Customer Churn & Retention Analysis
+---
 ## Overview
 
 This project builds an end-to-end analytics pipeline for customer churn analysis using the Brazilian Olist e-commerce dataset.
@@ -14,7 +15,7 @@ The project includes:
 - Cohort retention analysis
 - Business-focused SQL analytics
 - Executive dashboard built in Tableau Public
-
+---
 ## Business Problem
 Olist is a Brazilian e-commerce marketplace connecting thousands of sellers with customers.
 
@@ -29,7 +30,7 @@ The marketing team currently lacks a repeatable analytical framework to answer q
 - How quickly do customers stop purchasing?
   
 This project addresses those questions through an automated analytical pipeline.
-
+---
 ## Business Requirements
 
 The solution should:
@@ -42,7 +43,7 @@ The solution should:
 - Provide an executive dashboard for self-service analytics
 - Produce actionable recommendations
 - Provide an executive dashboard for self-service analytics
-
+---
 ## Tech Stack
 
 | Category | Technologies |
@@ -56,7 +57,24 @@ The solution should:
 
 ## Dataset
 
-...
+Source
+
+[Brazilian Olist E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+Contains information on:
+
+Customers
+Orders
+Order Items
+Products
+Sellers
+Reviews
+Payments
+Geolocation
+
+Dataset size:
+
+~100,000 Orders
+~96,000 Customers
 
 ---
 
