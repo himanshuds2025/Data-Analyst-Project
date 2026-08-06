@@ -146,13 +146,14 @@ The project follows a dimensional star schema...
 
 ## How to Run
 
-```sql
--- R
-run_all.sql 
+In the same folder of 'deliverables', run cmd from the address bar in the file explorer.
+
+### Run this command in
+"C:\Program Files\PostgreSQL\18\bin\psql" -U postgres -d postgres -f run_all.sql
 
     OR
 
--- Run in order
+-- Run in order 
 1_DDL.sql
 2_ETL.sql
 3_DATA_QUALITY
