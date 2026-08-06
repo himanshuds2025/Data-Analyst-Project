@@ -17,6 +17,7 @@ The project includes:
 - Executive dashboard built in Tableau Public 
 ---
 ## Business Problem
+
 Olist is a Brazilian e-commerce marketplace connecting thousands of sellers with customers.
 
 Like most e-commerce businesses, customer acquisition is expensive. Losing existing customers directly impacts long-term profitability.
@@ -51,8 +52,8 @@ The solution should:
 | Database | PostgreSQL |
 | SQL | PostgreSQL |
 | Visualization | Tableau Public |
-| IDE | DBeaver |
-
+| Bulk Imports | DBeaver |
+| Spreadsheet | Excel |
 ---
 
 ## Dataset
@@ -146,9 +147,30 @@ The project follows a dimensional star schema...
 ## How to Run
 
 ```sql
+-- R
+run_all.sql 
+
+    OR
+
 -- Run in order
-ddl.sql
-etl.sql
-analytics.sql
+1_DDL.sql
+2_ETL.sql
+3_DATA_QUALITY
+4_ANALYTICS.sql
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 exports.sql
 ```
