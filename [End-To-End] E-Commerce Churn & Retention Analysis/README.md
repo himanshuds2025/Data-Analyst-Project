@@ -40,20 +40,98 @@ The solution should:
 - Measure customer retention over time
 - Produce actionable recommendations
 - Provide an executive dashboard for self-service analytics
+- Produce actionable recommendations
+- Provide an executive dashboard for self-service analytics
 
-Tech Stack
-Category	Tools
-Database	PostgreSQL
-SQL IDE	DBeaver
-Dashboard	Tableau Public
-Modeling	Star Schema
-SQL	PostgreSQL
+## Tech Stack
 
+| Category | Technologies |
+|----------|--------------|
+| Database | PostgreSQL |
+| SQL | PostgreSQL |
+| Visualization | Tableau Public |
+| IDE | DBeaver |
 
+---
 
+## Dataset
 
+...
 
+---
 
+## Data Model
 
-Produce actionable recommendations
-Provide an executive dashboard for self-service analyticsalytics
+![Star Schema](images/star_schema.png)
+
+The project follows a dimensional star schema...
+
+### Fact Tables
+
+- fact_orders
+- fact_order_items
+- fact_reviews
+- fact_payments
+
+### Dimension Tables
+
+- dim_customers
+- dim_products
+- dim_dates
+- dim_sellers
+- dim_geolocations
+
+---
+
+## ETL Pipeline
+
+...
+
+---
+
+## Analytics Performed
+
+### Customer Segmentation (RFM)
+
+...
+
+### Cohort Retention
+
+...
+
+### Churn Driver Analysis
+
+...
+
+---
+
+## Dashboard
+
+![Dashboard](images/dashboard.png)
+
+---
+
+## Key Insights
+
+- Insight 1
+- Insight 2
+- Insight 3
+
+---
+
+## Business Recommendations
+
+- Recommendation 1
+- Recommendation 2
+
+---
+
+## How to Run
+
+```sql
+-- Run in order
+ddl.sql
+etl.sql
+analytics.sql
+exports.sql
+```
