@@ -63,13 +63,13 @@ Source
 [Brazilian Olist E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 Contains information on:
 
-Customers
-Orders
-Order Items
-Products
-Sellers
-Reviews
-Payments
+Customers,
+Orders,
+Order Items,
+Products,
+Sellers,
+Reviews,
+Payments, and
 Geolocation
 
 Dataset size:
