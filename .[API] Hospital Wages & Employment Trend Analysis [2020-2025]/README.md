@@ -16,7 +16,7 @@ The analysis uses six years (2020–2025) of hospital wage and employment data a
 ---
 ## Analysis
 -  Number of Operating Hospitals By County
-  ![Chart 1](.[API] Hospital Wages & Employment Trend Analysis [2020-2025]/Images/1_operating hospitals.png)
+  ![1_operating hospitals](./[API] Hospital Wages & Employment Trend Analysis [2020-2025]/Images/1_operating hospitals.png)
 
 ## Dashboard
 
