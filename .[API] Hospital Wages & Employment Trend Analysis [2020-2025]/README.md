@@ -66,7 +66,7 @@
 
 ## Dashboard
 
-...
+![Dashboard](Images/Dashboard%20Image.png)
 
 ---
 
