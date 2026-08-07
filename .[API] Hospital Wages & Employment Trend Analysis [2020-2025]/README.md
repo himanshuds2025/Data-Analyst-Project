@@ -98,6 +98,8 @@ From year 2020 to 2025, Alameda County faced decrease of 8% in employment levels
 - Tableau
   
 ---
+
 ## Data Sources
-Bureau of Labor Statistics (BLS)
-Quarterly Census of Employment and Wages (QCEW)
+
+- Bureau of Labor Statistics (BLS)
+- Quarterly Census of Employment and Wages (QCEW)
