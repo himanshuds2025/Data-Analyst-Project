@@ -58,22 +58,22 @@ This analysis uses two distinct data sources:
 ![Image](images/2_yeild.png)
 
 - Correlation Between Yield And Profit Margin
-![Image](Images/3_Yeild_vs_profit.png)
+![Image](images/3_Yeild_vs_profit.png)
 
 - Highest Corn Margin Pressure In Iowa
-![Image](Images/4_bottom_10.png)
+![Image](images/4_bottom_10.png)
 
 - Lowest Corn Margin Pressure In Iowa
-![Image](Images/5_top_10.png)
+![Image](images/5_top_10.png)
 
 - Heatmap of Counties (Plotly)
-![Image](Images/6_map.png)
+![Image](images/6_map.png)
 
 - Trend of Average Corn Margin
-![Image](Images/7_avg_corn_margin.png)
+![Image](images/7_avg_corn_margin.png)
 
 - Heatmap of Best 20 and Worst 20 Counties
-![Image](Images/8_heatmap.png)
+![Image](images/8_heatmap.png)
 
 ---
 
