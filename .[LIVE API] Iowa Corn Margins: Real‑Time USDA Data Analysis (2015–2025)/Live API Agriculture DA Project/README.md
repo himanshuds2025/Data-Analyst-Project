@@ -5,6 +5,14 @@ US corn farmers are facing a severe margin squeeze. Production costs remain high
 
 ---
 
+## Conclusion
+- Statistically, Corn farming in the US is a **risky** business in 2026.
+- In the past 3 years, Iowa counties experienced a **147.6% decline** in average corn profit margin, falling from **$267/acre** to **-$127/acre**.
+- A **$395/acre reversal** that has put every county in the red
+- Historically, 2021 and 2022 had $222-$267 average margin per acre, but 2025 shows a **severse downturn across all counties**.
+
+---
+
 ## Data Sources
 This analysis uses two distinct data sources:
 
