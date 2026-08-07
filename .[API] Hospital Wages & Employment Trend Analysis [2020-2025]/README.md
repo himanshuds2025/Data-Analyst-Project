@@ -25,7 +25,7 @@
 ## Analysis
 
 - Number of Operating Hospitals By County
-![Image](Images/1_operating%20hospitals.png)
+
 
 ## Dashboard
 
