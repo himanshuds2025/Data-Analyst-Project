@@ -45,7 +45,7 @@
 
 - Year-On-Year Wage Growth
 
-![Image](Images/6_ yoy_wage_growth.png)
+![Image](Images/6_%20yoy_wage_growth.png)
 
 - Median Weekly Wage by Ownership Type
 
