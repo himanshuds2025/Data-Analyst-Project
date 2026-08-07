@@ -1,11 +1,13 @@
 # Iowa Corn Margin Stress Analysis (2025)
 
 ## Overview
+
 US corn farmers are facing a severe margin squeeze. Production costs remain high while commodity prices fluctuate, leaving many operations financially vulnerable. This project identifies which Iowa counties are under the most financial pressure by combining live USDA yield data with cost of production estimates. The final output is a county‑level ranking of estimated profit margins, highlighting the regions at greatest risk.
 
 ---
 
 ## Conclusion
+
 - Statistically, Corn farming in the US is a **risky** business in 2026.
 - In the past 3 years, Iowa counties experienced a **147.6% decline** in average corn profit margin, falling from **$267/acre** to **-$127/acre**.
 - A **$395/acre reversal** that has put every county in the red
@@ -14,6 +16,7 @@ US corn farmers are facing a severe margin squeeze. Production costs remain high
 ---
 
 ## Data Sources
+
 This analysis uses two distinct data sources:
 
 1.  **USDA Quick Stats API** – Provides county‑level corn yields for Iowa from 2015 to 2025.  
@@ -52,6 +55,7 @@ This analysis uses two distinct data sources:
 ---
 
 ## Key Assumptions & Limitations
+
 - **Cost Proxy** – The ERS data only provides regional cost estimates (Heartland region). This average is applied uniformly to all Iowa counties, as county‑specific costs are not publicly available.
 - **Fixed Price** – The harvest price is assumed constant across the state, which is a simplification of real‑world local basis differences.
 - **Missing Data** – Not all 99 Iowa counties reported yield for 2025; the final dataset includes 82 counties.
@@ -59,6 +63,7 @@ This analysis uses two distinct data sources:
 ---
 
 ## Analysis
+
 - Profit Marin Across Counties
 ![Image](images/1_margin.png)
 
@@ -86,6 +91,7 @@ This analysis uses two distinct data sources:
 ---
 
 ## Results
+
 Key findings from the 2025 analysis:
 
 - **All 82 counties** in the dataset show **negative margins** – meaning every county is projected to lose money per acre under the Heartland cost assumptions.
@@ -96,6 +102,7 @@ Key findings from the 2025 analysis:
 
 
 ## Tools Used
+
 - Python 3 – Core programming language
 
 - Pandas – Data manipulation and analysis
