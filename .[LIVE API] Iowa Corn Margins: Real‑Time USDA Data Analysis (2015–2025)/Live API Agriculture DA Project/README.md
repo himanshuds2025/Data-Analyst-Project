@@ -52,10 +52,10 @@ This analysis uses two distinct data sources:
 
 ## Analysis
 - Profit Marin Across Counties
-![Image](Images/1_margin.png)
+![Image](images/1_margin.png)
 
 - Distribution Of Corn Yields
-![Image](Images/2_yeild.png)
+![Image](images/2_yeild.png)
 
 - Correlation Between Yield And Profit Margin
 ![Image](Images/3_Yeild_vs_profit.png)
