@@ -66,7 +66,8 @@
 
 ## Dashboard
 
-![Dashboard](Images/Dashboard%20Image.png)
+![ashboard](Images/Dashboard%20Image.png)
+
 
 ---
 
