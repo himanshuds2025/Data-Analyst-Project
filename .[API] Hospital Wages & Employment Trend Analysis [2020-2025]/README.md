@@ -25,6 +25,43 @@
 ## Analysis
 
 - Number of Operating Hospitals By County
+  ![Image](Images/1_operating_hospitals.png)
+
+- Share of Employment by Ownership Type
+
+![Image](Images/2_county%20ownership%20share.png)
+
+- Overall Employment Rate
+
+![Image](Images/3_overall%20emp%20rate.png)
+
+- Average Weekly Wages by Ownership Type
+
+![Image](Images/4_avg%20weekly%20by%20ownership.png)
+
+- Total Monthly Hospital Wages
+
+![Image](Images/5_monthly%20hospital%20wages%20(total).png)
+
+- Year-On-Year Wage Growth
+
+![Image](Images/6_yoy%20wage%20growth.png)
+
+- Median Weekly Wage by Ownership Type
+
+![Image](Images/7_Trend%20of%20median%20weekly%20wages%20by%20ownership.png)
+
+- National Average VS Counties (Median Weekly Wages)
+
+![Image](Images/8_county%20median%20avg%20weekly%20vs%20national%20avg.png)
+
+- Employment Changes Since 2020
+
+![Image](Images/9_emp%20chaanges.png)
+
+- National ECI Growth Rate VS County Wage Growth
+
+![Image](Images/10_wage%20growth%20in%20contrast%20with%20nation%20avg.png)
 
 
 ## Dashboard
