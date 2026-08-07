@@ -45,7 +45,7 @@
 
 - Year-On-Year Wage Growth
 
-![Image](Images/6_yoy%20wage%20growth.png)
+![Image](Images/6_yoy_wage_growth.png)
 
 - Median Weekly Wage by Ownership Type
 
@@ -53,7 +53,7 @@
 
 - National Average VS Counties (Median Weekly Wages)
 
-![Image](Images/8_county%20median%20avg%20weekly%20vs%20national%20avg.png)
+![Image](Images/8_county_median_avg_weekly_vs_national_avg.png)
 
 - Employment Changes Since 2020
 
