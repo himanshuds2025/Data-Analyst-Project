@@ -49,13 +49,13 @@ Key findings from the 2025 analysis:
 - **Yield is the sole differentiator** – Because costs and prices are fixed, the scatter plot of Yield vs Margin forms a perfect straight line.
 
 
-Tools Used
-Python 3 – Core programming language
+## Tools Used
+- Python 3 – Core programming language
 
-Pandas – Data manipulation and analysis
+- Pandas – Data manipulation and analysis
 
-Requests – API data ingestion
+- Requests – API data ingestion
 
-Matplotlib – Visualisation and plotting
+- Matplotlib – Visualisation and plotting
 
-OpenPyXL – Reading Excel files
+- Ms Excel – Reading Excel files
