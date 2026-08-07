@@ -16,6 +16,13 @@
   
 ---
 
+## Conclusion 
+
+From year 2020 to 2025, Alameda County faced decrease of 8% in employment levels, and 29.9% increase in average weekly wage growth, showing signs of breaking point in the hospital sector...
+(rising costs + shrinking workforce).
+
+---
+
 ## Data
 
   The analysis uses six years (2020–2025) of hospital wage and employment data across ten California counties, together with the National Average Weekly Wage and the U.S. Employment Cost Index (ECI) obtained   from the Bureau of Labor Statistics (BLS) and Quarterly Census of Employment and Wages (QCEW).
@@ -64,7 +71,7 @@
 ![Image](Images/10_wage%20growth%20in%20contrast%20with%20nation%20avg.png)
 
 
-## Dashboard
+## Dashboard (TABLEAU)
 
 ![ashboard](Images/Dashboard%20Image.png)
 
