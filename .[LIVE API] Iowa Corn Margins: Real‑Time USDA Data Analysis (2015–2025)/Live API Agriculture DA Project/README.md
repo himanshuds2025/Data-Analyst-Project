@@ -3,6 +3,8 @@
 ## Overview
 US corn farmers are facing a severe margin squeeze. Production costs remain high while commodity prices fluctuate, leaving many operations financially vulnerable. This project identifies which Iowa counties are under the most financial pressure by combining live USDA yield data with cost of production estimates. The final output is a county‑level ranking of estimated profit margins, highlighting the regions at greatest risk.
 
+---
+
 ## Data Sources
 This analysis uses two distinct data sources:
 
@@ -13,6 +15,8 @@ This analysis uses two distinct data sources:
 2.  **USDA ERS Commodity Costs and Returns** – Provides cost of production and harvest price estimates.  
     *Download page: `https://www.ers.usda.gov/data-products/commodity-costs-and-returns/`*  
     *File used: `CornCostReturn.xlsx` (Recent Cost and Returns table)*
+
+---
 
 ## Limitations
 
@@ -26,7 +30,10 @@ This analysis uses two distinct data sources:
 
 5. Manual Data Download – The ERS cost data must be downloaded manually as a separate Excel file. There is no public API for cost data, so the process is not fully automated. The Excel file must be placed in the project directory.
 
+---
+
 ## Methodology
+
 1.  **Yield Data** – Pulled from the USDA Quick Stats API, filtered to corn, Iowa, county‑level granularity, and bushels per acre.
 2.  **Data Cleaning** – Removed blank county entries, resolved duplicate survey records, and kept only the `ALL PRODUCTION PRACTICES` records.
 3.  **Cost & Price Extraction** – Extracted the Heartland region’s **total cost per planted acre** ($947.29) and **harvest price per bushel** ($3.92) for 2025 from the ERS Excel file.
@@ -34,10 +41,41 @@ This analysis uses two distinct data sources:
     `Margin = (Yield × Price) – Cost`
 5.  **Ranking** – Counties were sorted by margin ascending, with the most negative margins indicating the highest financial stress.
 
+---
+
 ## Key Assumptions & Limitations
 - **Cost Proxy** – The ERS data only provides regional cost estimates (Heartland region). This average is applied uniformly to all Iowa counties, as county‑specific costs are not publicly available.
 - **Fixed Price** – The harvest price is assumed constant across the state, which is a simplification of real‑world local basis differences.
 - **Missing Data** – Not all 99 Iowa counties reported yield for 2025; the final dataset includes 82 counties.
+  
+---
+
+## Analysis
+- Profit Marin Across Counties
+![Image](Images/1_margin.png)
+
+- Distribution Of Corn Yields
+![Image](Images/2_yeild.png)
+
+- Correlation Between Yield And Profit Margin
+![Image](Images/3_Yeild_vs_profit.png)
+
+- Highest Corn Margin Pressure In Iowa
+![Image](Images/4_bottom_10.png)
+
+- Lowest Corn Margin Pressure In Iowa
+![Image](Images/5_top_10.png)
+
+- Heatmap of Counties (Plotly)
+![Image](Images/6_map.png)
+
+- Trend of Average Corn Margin
+![Image](Images/7_avg_corn_margin.png)
+
+- Heatmap of Best 20 and Worst 20 Counties
+![Image](Images/8_heatmap.png)
+
+---
 
 ## Results
 Key findings from the 2025 analysis:
